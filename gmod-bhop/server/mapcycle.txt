@@ -1,0 +1,10 @@
+bhop_badges
+bhop_eazy
+bhop_lego2
+bhop_arcane_v1
+bhop_miku_v2
+bhop_exodus
+bhop_fury
+bhop_monotonous
+bhop_japan
+bhop_aux_a2

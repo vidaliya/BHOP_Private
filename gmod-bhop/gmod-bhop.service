@@ -1,0 +1,16 @@
+[Unit]
+Description=Garry's Mod Bhop Server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=%i
+WorkingDirectory=%h/gmod-bhop
+ExecStart=%h/gmod-bhop/start-bhop.sh
+Restart=always
+RestartSec=10
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target
